@@ -1,0 +1,150 @@
+
+/* default style */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.light-color{
+    background-color:#f8f9fa;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+input[type="text"] {
+    outline: none;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 9px;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* end default */
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* top menu */
+.top-menu{
+    width: 100%;
+    height: auto;
+}
+.nav-bar{
+    padding: 10px;
+    height: 35px;
+}
+.nav-bar ul li{
+    display: inline;
+}
+.nav-bar ul li a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+.nav-bar ul li a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* end top menu */
+
+/* banner section */
+.banner{
+    width: 100%;
+    background-image: url('../img/Blog-Banner.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.banner-content {
+    width: 50%;
+    padding-top: 65px;
+    padding-left: 43px;
+    color: #fff;
+}
+.btn-cover{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top:10px;
+    border-radius: 10px;
+    color: #fff;
+}
+/* end banner */
+
+.body-warp{
+    display: flex;
+    margin-top: 20px;
+}
+.body-content{
+    flex: 1;
+    width: 70%;
+}
+.blog-content{
+    width: 100%;
+    overflow: hidden;
+}
+.blog-list{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.blog-list img{
+    width: 100%;
+    height: 300px;
+}
+.blog-list .blog-title{}
+.blog-list .blog-title a{
+    font-size: 25px;
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.blog-list p{
+    font-size: 18px;
+}
+
+
+.body-sidebar{
+    width: 30%;
+}
+
+.sidebar{
+    padding:0 20px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.sidebar h2{
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+}
+.sidebar-menu{
+    background-color: #fff;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.sidebar-menu a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+}
+
